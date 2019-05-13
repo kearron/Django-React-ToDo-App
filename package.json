@@ -1,0 +1,39 @@
+{
+  "name": "Django-React-ToDo-App",
+  "version": "1.0.0",
+  "description": "Build a simple Todo application using django,react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" :"webpack",
+    "start" :"webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kearron/Django-React-ToDo-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kearron/Django-React-ToDo-App/issues"
+  },
+  "homepage": "https://github.com/kearron/Django-React-ToDo-App#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^3.6.0"
+  }
+}
